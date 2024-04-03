@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.dot {
+  stroke: #000;
+  opacity: 0.8;
+}
+
+.tick:first-of-type,
+.tick:last-of-type {
+  display: none;
+}
+
+#tooltip {
+  padding: 10px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
